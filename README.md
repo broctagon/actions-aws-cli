@@ -6,7 +6,7 @@ Docker image for AWS CLI, also source for the AWS CLI GitHub Action.
 
 ```
 - name: S3 Sync
-  uses: broctagon/actions-aws-cli@v1.0.0
+  uses: broctagon/actions-aws-cli@v1.0.1
   with:
     args: s3 sync --delete --acl public-read localdir/ s3://remote-bucket/
   env:
