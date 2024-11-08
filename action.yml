@@ -3,7 +3,19 @@ description: 'GitHub Action for AWS CLI'
 author: Broctagon Crm Teams
 branding:
   icon: 'terminal'
-  color: 'orange'
+  color: 'gray-dark'
+
+inputs:
+  AWS_DEFAULT_REGION:
+    description: 'AWS Default Region'
+    required: true
+  AWS_ACCESS_KEY_ID:
+    description: 'AWS Access Key ID'
+    required: true
+  AWS_SECRET_ACCESS_KEY:
+    description: 'AWS Secret Access Key'
+    required: true
+
 runs:
   using: docker
   image: Dockerfile
