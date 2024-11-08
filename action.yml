@@ -2,7 +2,7 @@ name: 'Actions AWS CLI'
 description: 'GitHub Action for AWS CLI'
 author: Broctagon Crm Teams
 branding:
-  icon: 'cloud'
+  icon: 'terminal'
   color: 'orange'
 runs:
   using: docker
