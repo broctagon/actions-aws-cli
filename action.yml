@@ -1,0 +1,9 @@
+name: 'AWS CLI'
+description: 'GitHub Action for AWS CLI'
+author: Broctagon Crm Teams
+branding:
+  icon: 'cloud'
+  color: 'orange'
+runs:
+  using: docker
+  image: Dockerfile
